@@ -1,4 +1,4 @@
-pico-borg-reverse
+picoborg-reverse
 =================
 
 A controller library for PiBorg's PicoBorg Reverse motor driver board designed for use with the Raspberry Pi.
