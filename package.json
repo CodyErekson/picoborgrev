@@ -1,0 +1,29 @@
+{
+  "name": "picoborg-rev",
+  "version": "0.0.1",
+  "description": "A controller library for PiBorg's PicoBorg Reverse motor driver board designed for use with the Raspberry Pi.",
+  "main": "picoborg-rev.js",
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cerekson/picoborg-reverse.git"
+  },
+  "keywords": [
+    "piborg",
+    "picoborg reverse",
+    "raspberry pi",
+    "motor driver",
+    "i2c"
+  ],
+  "author": {
+      "name": "Cody Erekson",
+      "email": "cody@erekson.org",
+      "url": "http://blog.codyerekson.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cerekson/picoborg-reverse/issues"
+  },
+  "homepage": "https://github.com/cerekson/picoborg-reverse"
+}
