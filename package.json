@@ -5,7 +5,8 @@
   "main": "main.js",
   "dependencies": {
     "i2c": "~0.1.6",
-    "node-constants": "0.0.2"
+    "node-constants": "~0.0.2",
+    "underscore": "~1.7.0",
   },
   "repository": {
     "type": "git",
