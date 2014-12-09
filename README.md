@@ -24,12 +24,12 @@ Unless you either ran PiBorg's installation script, or have previously enabled t
 ```node
 var prb = require('picoborgrev').picoborgrev();
 
-/* Start motor 2 moving forward at 100% maximum speed 
-* Unlike the Python and Arduino variants which accept a float input ranged from -1 to +1,
+/* Unlike the Python and Arduino variants which accept a float input ranged from -1 to +1,
 * I opted to simplify this for the end-user and require a percentage of the maximum speed
 * which is ranged from -255 - +255. Therefore these functions accept anything from -100 to -1
 * for reverse, 0 to stop, and 1 to 100 for forward.
 */
+/* Start motor 2 moving forward at 100% maximum speed */
 pbr.SetMotor2(100, function(err){
     if ( err ){
         console.log("Error: " + err);
