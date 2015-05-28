@@ -22,7 +22,7 @@ Unless you either ran PiBorg's installation script, or have previously enabled t
 ######Examples
 
 ```node
-var prb = require('picoborgrev').picoborgrev();
+var pbr = require('picoborgrev').picoborgrev();
 
 /* Unlike the Python and Arduino variants which accept a float input ranged from -1 to +1,
 * I opted to simplify this for the end-user and require a percentage of the maximum speed
