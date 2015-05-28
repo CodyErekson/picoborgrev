@@ -11,7 +11,7 @@ https://www.piborg.org/picoborgrev/install
 ##Installation
 
 ```
-npm install https://github.com/cerekson/picoborgrev.git
+https://github.com/cerekson/picoborgrev/tarball/master
 ```
 
 Unless you either ran PiBorg's installation script, or have previously enabled the I2C bus on your Raspberry Pi, you will need to enable it.  Follow this wonderful AdaFruit tutorial to do so: https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
