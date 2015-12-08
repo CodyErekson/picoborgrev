@@ -11,7 +11,7 @@ https://www.piborg.org/picoborgrev/install
 ##Installation
 
 ```
-npm install https://github.com/cerekson/picoborgrev.git
+npm install https://github.com/cerekson/picoborgrev/tarball/master
 ```
 
 Unless you either ran PiBorg's installation script, or have previously enabled the I2C bus on your Raspberry Pi, you will need to enable it.  Follow this wonderful AdaFruit tutorial to do so: https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
@@ -22,7 +22,7 @@ Unless you either ran PiBorg's installation script, or have previously enabled t
 ######Examples
 
 ```node
-var prb = require('picoborgrev').picoborgrev();
+var pbr = require('picoborgrev').picoborgrev();
 
 /* Unlike the Python and Arduino variants which accept a float input ranged from -1 to +1,
 * I opted to simplify this for the end-user and require a percentage of the maximum speed
