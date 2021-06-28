@@ -8,7 +8,7 @@ I highly recommend that you first read through the "Getting Started" page on PiB
 https://www.piborg.org/picoborgrev/install
 
 
-##Installation
+## Installation
 
 ```
 npm install https://github.com/cerekson/picoborgrev.git
@@ -17,9 +17,9 @@ npm install https://github.com/cerekson/picoborgrev.git
 Unless you either ran PiBorg's installation script, or have previously enabled the I2C bus on your Raspberry Pi, you will need to enable it.  Follow this wonderful AdaFruit tutorial to do so: https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
 
 
-##Usage
+## Usage
 
-######Examples
+###### Examples
 
 ```node
 var prb = require('picoborgrev').picoborgrev();
@@ -176,7 +176,7 @@ SetNewAddress(byte newAddress, callback);
 _* This method has not yet been implemented._
 
 
-##Contact
+## Contact
 
 The author, Cody Erekson, can be contacted in one of the following ways/places:
 
@@ -187,7 +187,7 @@ The author, Cody Erekson, can be contacted in one of the following ways/places:
 * http://blog.codyerekson.me
 
 
-##License
+## License
 
 The MIT License (MIT)
 
