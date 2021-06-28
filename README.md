@@ -114,7 +114,7 @@ process.on('SIGINT', function() {
 });
 ```
 
-######Available Methods
+###### Available Methods
 
 ```node
 
